@@ -1,0 +1,27 @@
+{
+  "name": "fixsick/service-authentication",
+  "description": "",
+  "type": "symfony-bundle",
+  "require": {
+    "php": ">=8.1",
+    "ramsey/uuid": "^4.7",
+    "ext-ctype": "*",
+    "ext-iconv": "*",
+    "doctrine/annotations": "^2.0",
+    "doctrine/doctrine-bundle": "^2.9",
+    "doctrine/doctrine-migrations-bundle": "^3.3",
+    "doctrine/orm": "^2.14",
+    "doctrine/doctrine-fixtures-bundle": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "fixsickcoder\\ServiceAuthentication\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Beliaev Denis",
+      "email": "dbeliaev@fixsick.ru"
+    }
+  ]
+}
