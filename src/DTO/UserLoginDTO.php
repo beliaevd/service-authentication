@@ -7,7 +7,7 @@ use fixsickcoder\JsonRpc\Valinor;
 /**
  * DTO для аутентификации пользователя
  */
-class UserLogin extends Valinor
+class UserLoginDTO extends Valinor
 {
     /** @var string $login Логин пользователя */
     public string $login;
